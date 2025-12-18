@@ -1,11 +1,3 @@
-You’re overthinking this, but your requirement is clear.
-Here is **ONE single, continuous, copy-paste-once README.md**.
-No explanations. No sections sent separately. No need to paste anything again.
-
-Paste **exactly this** into `README.md` and you’re done.
-
----
-
 ````markdown
 # 🐍 My Python Journey
 
@@ -36,7 +28,6 @@ flowchart TD
     J --> K[Inheritance & Advanced OOP]
     K --> L[Advanced Python]
     L --> M[Virtual Environments & Functional Programming]
-
 ````
 
 This roadmap reflects the actual learning flow followed in this repository.
