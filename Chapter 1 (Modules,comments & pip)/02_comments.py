@@ -9,3 +9,4 @@ This is a multi-line comment (also called a docstring).
 It is used to explain complex logic or provide 
 documentation for your code.
 """
+''' This is also a multiline comment using triple single quotes.'''
