@@ -1,38 +1,18 @@
-````markdown
 # 🐍 My Python Journey
 
+![Banner](https://copilot.microsoft.com/th/id/BCO.f5b5bcb8-b016-4c0e-893d-4874be03058b.png)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Repo Size](https://img.shields.io/github/repo-size/Venom-Shivu/MY-PYTHON-JOURNEY)
-![Stars](https://img.shields.io/github/stars/Venom-Shivu/MY-PYTHON-JOURNEY?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/Venom-Shivu/MY-PYTHON-JOURNEY)
+![GitHub stars](https://img.shields.io/github/stars/Venom-Shivu/MY-PYTHON-JOURNEY?style=social)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A structured, chapter-wise repository documenting my complete Python learning journey — from core fundamentals to advanced concepts.
+This repository documents my complete **Python learning journey** — from beginner to advanced.  
+Each chapter includes **practice sets, quizzes, and code with detailed comments** explaining every function, so learners can easily follow along.
+
 
 This repository emphasizes clean code, strong fundamentals, logical progression, and practical understanding. It is designed for learners who want to understand Python properly instead of memorizing syntax.
 
----
-
-## 🧭 Learning Roadmap
-
-```mermaid
-flowchart TD
-    A[Python Basics] --> B[Variables & Data Types]
-    B --> C[Strings]
-    C --> D[Lists & Tuples]
-    D --> E[Dictionaries & Sets]
-    E --> F[Conditional Statements]
-    F --> G[Loops]
-    G --> H[Functions & Recursion]
-    H --> I[File Handling]
-    I --> J[Object Oriented Programming]
-    J --> K[Inheritance & Advanced OOP]
-    K --> L[Advanced Python]
-    L --> M[Virtual Environments & Functional Programming]
-````
-
-This roadmap reflects the actual learning flow followed in this repository.
-
----
 
 ## 📚 Repository Contents
 
@@ -126,7 +106,7 @@ Quality and understanding will always come before speed.
 ## 👨‍💻 Author
 
 Shivansh Yadav
-GitHub: [https://github.com/Venom-Shivu](https://github.com/Venom-Shivu)
+LinkdIn: [www.linkedin.com/in/the-venom](www.linkedin.com/in/the-venom)
 
 ---
 
@@ -134,6 +114,6 @@ GitHub: [https://github.com/Venom-Shivu](https://github.com/Venom-Shivu)
 
 This project is open-source and licensed under the MIT License.
 
-```
+
 
 ---
