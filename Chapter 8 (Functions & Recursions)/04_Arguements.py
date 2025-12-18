@@ -44,17 +44,6 @@ display_info(product="Laptop", price=1200, brand="Dell", quantity=1)
 # Calls the same function with different keyword arguments
 
 
-
-# Required Arguements:
-#         The Arguemnts which are necessary to perform an action , without these arguement there would be typerror.
-def add(a, b):
-    print(f"The sum of {a} and {b} is {a + b}")
-
-print("\n--- Calling function with required arguments ---")
-add(5, 3)
-# add(5) # This would raise a TypeError because 'b' is a required argument and is missing 
-
-
 # Arbitrary Arguments (*args):
 # Variable-length arguments (*args):
 #       Allows a function to accept an arbitrary number of positional arguments.
@@ -68,5 +57,18 @@ def sum_all(*args):
 print("\n--- Calling function with variable-length arguments (*args) ---")
 sum_all(1, 2, 3)
 sum_all(10, 20, 30, 40, 50)
+
+
+
+# Required Arguements:
+#         The Arguemnts which are necessary to perform an action , without these arguement there would be typerror.
+def add(a, b):
+    print(f"The sum of {a} and {b} is {a + b}")
+
+print("\n--- Calling function with required arguments ---")
+add(5, 3)
+# add(5) # This would raise a TypeError because 'b' is a required argument and is missing 
+
+
 
 
