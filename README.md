@@ -104,16 +104,23 @@ Quality and understanding will always come before speed.
 ---
 
 ## 👨‍💻 Author
+**Shivansh Yadav**  
 
-Shivansh Yadav
-LinkdIn: [www.linkedin.com/in/the-venom](www.linkedin.com/in/the-venom)
+- Passionate about **Python programming** and building clear, well‑commented code  
+- Skilled in **Data Analysis & Visualization** (Pandas, NumPy, Power BI, Tableau, Excel)  
+- Interested in **Machine Learning** and applying Python to real‑world projects  
+- Strong communicator, focused on making technical content accessible and collaborative  
+
+**Connect with me:**  
+- GitHub: [Venom-Shivu](https://github.com/Venom-Shivu)  
+- LinkedIn: [Shivansh Yadav](https://www.linkedin.com/in/the-venom)  
+
 
 ---
 
 ## 📌 License
 
 This project is open-source and licensed under the MIT License.
-
 
 
 ---
