@@ -50,9 +50,9 @@ if user_choice == computer_choice:
 # Step 2: Use Parentheses and 'or' to group all winning scenarios
 # This is called 'Compound Conditional Logic'
 elif (
-    (user_choice == "stone" and computer_choice == "scissors") or
-    (user_choice == "paper" and computer_choice == "stone") or
-    (user_choice == "scissors" and computer_choice == "paper")
+    (user_choice == "stone" and computer_choice == "scissors") or # Stone crushes the Scissors.
+    (user_choice == "paper" and computer_choice == "stone") or    # Paper wraps the Stone.
+    (user_choice == "scissors" and computer_choice == "paper")    #Scissors cut the Paper
 ):
     result = "YOU WIN!"
 
