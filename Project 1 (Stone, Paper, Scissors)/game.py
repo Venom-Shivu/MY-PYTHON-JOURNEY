@@ -1,4 +1,5 @@
 import random
+#The random module in Python is a built-in library used to generate pseudo-random numbers.
 
                                     # ==========================================
                                     #    STONE PAPER SCISSORS - CONSOLE GAME
