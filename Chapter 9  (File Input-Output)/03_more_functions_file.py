@@ -1,4 +1,4 @@
-'''# ------------------------------------------------------------
+#------------------------------------------------------------
 # READING LINE BY LINE USING readline()
 # ------------------------------------------------------------
 
@@ -43,12 +43,13 @@ for line in all_lines:
     print(line, end='')
 
 f.close()
-'''
-#This code gives FileNotFoundError because Python looks for
+
+#This code might  give FileNotFoundError because Python looks for
 # "introduction.txt" in the current working directory, not
 # in the folder where this script is saved.
 
 
+'''Alternative way to Write the same code with error handling:
 from pathlib import Path
 
 file_path = Path(__file__).parent / "introduction.txt"
@@ -102,4 +103,4 @@ with open(file_path, "r") as file:
     # Move to the next line
         line = file.readline()
         # Read the next line for the next iteration
-
+'''
