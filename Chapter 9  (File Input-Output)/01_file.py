@@ -26,8 +26,41 @@
 # available even after the program stops running.
 # This makes it a core concept for real-world applications.
 # ------------------------------------------------------------
+
+#                       ====================================================================
+#                                                  READING A FILE
+#                       ====================================================================
+
+
+"""
 f = open("introduction.txt")
 data = f.read()
 print(data)
 f.close()
+"""
+
+# This works ONLY when the current working directory is the same
+# folder where 'introduction.txt' exists.
+#
+# If the program is run from the main project folder
+# (MY_PYTHON_JOURNEY), Python searches for the file there
+# and raises FileNotFoundError because the file is inside Chapter 9.
+#
+# This is a working-directory issue, not a file or Python issue.
+
+
+from pathlib import Path
+# Used to work with file paths easily and safely
+
+BASE_DIR = Path(__file__).parent
+# Gets the folder where this Python file is located
+
+file_path = BASE_DIR / "introduction.txt"
+# Creates the full path to introduction.txt in the same folder
+
+with open(file_path, "r") as file:
+    # Opens the file in read mode and auto-closes it
+    print(file.read())
+    # Reads and prints the entire file content
+
 
