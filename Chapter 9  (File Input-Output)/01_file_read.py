@@ -33,10 +33,10 @@
 
 
 """
-f = open("introduction.txt")
-data = f.read()
-print(data)
-f.close()
+f = open("introduction.txt") Opens the file in read mode
+data = f.read() Reads the entire content of the file and stores it in the 'data' variable
+print(data) Prints the content of the file
+f.close() Closes the file
 """
 
 # This works ONLY when the current working directory is the same
@@ -45,7 +45,6 @@ f.close()
 # If the program is run from the main project folder
 # (MY_PYTHON_JOURNEY), Python searches for the file there
 # and raises FileNotFoundError because the file is inside Chapter 9.
-#
 # This is a working-directory issue, not a file or Python issue.
 
 
@@ -62,5 +61,4 @@ with open(file_path, "r") as file:
     # Opens the file in read mode and auto-closes it
     print(file.read())
     # Reads and prints the entire file content
-
 
