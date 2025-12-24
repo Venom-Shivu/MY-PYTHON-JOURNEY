@@ -1,8 +1,5 @@
 
 ---
-
-![Image](https://200oksolutions.com/blog/wp-content/uploads/2024/11/Picture1.png)
-
 ![Image](https://substackcdn.com/image/fetch/%24s_%21lMAf%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72d3654b-44b5-4708-a634-527534bd0937_3772x3040.png)
 
 # 📘 Chapter 10: Object-Oriented Programming (OOP)
@@ -119,10 +116,3 @@ Mastering OOP means knowing **when to apply it and when not to** — this chapte
 
 ---
 
-If you want the next step to be sharper, I can:
-
-* Convert this chapter into **interview-grade OOP notes**
-* Add **minimal, clean code snippets**
-* Refactor an earlier functional chapter into OOP to show the contrast clearly
-
-Say what you want to improve — not what you want to decorate.
