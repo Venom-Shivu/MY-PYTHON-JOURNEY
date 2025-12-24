@@ -113,5 +113,3 @@ Avoid it when:
 * Writing small, one-time scripts
 
 Mastering OOP means knowing **when to apply it and when not to** — this chapter focuses on that balance.
-
----
