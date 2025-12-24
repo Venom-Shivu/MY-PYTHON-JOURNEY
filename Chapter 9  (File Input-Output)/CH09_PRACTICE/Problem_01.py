@@ -8,6 +8,6 @@ with open("poems.txt", "r") as file:
 
 # Convert text to lowercase to make the search case-insensitive
 if "twinkle" in content.lower():
-    print("The word 'twinkle' is present in the file.")
+    print("The word 'twinkle' is present in the Poem.")
 else:
-    print("The word 'twinkle' is NOT present in the file.")
+    print("The word 'twinkle' is NOT present in the Poem.")

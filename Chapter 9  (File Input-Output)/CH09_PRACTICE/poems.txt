@@ -1,24 +1,19 @@
-Twinkle, twinkle, little star,
-How I wonder what you are!
-Up above the world so high,
-Like a diamond in the sky.
+Twinkle twinkle little star,
+Kaise ho mere bhai log yaar?
+Programming ho nahi paa rahi is baar,
+Error de raha code har baar.
 
-When the blazing sun is gone,
-When he nothing shines upon,
-Then you show your little light,
-Twinkle, twinkle, all the night.
+Laptop kholo, dimag hai blank,
+Syntax bhool gaye, memory sank.
+Loop lagaya, output zero,
+Debugger bana phir bhi hero.
 
-Then the traveller in the dark
-Thanks you for your tiny spark;
-He could not see which way to go,
-If you did not twinkle so.
+Kuch to batao humein jugaad,
+Deadline aa gayi, halat barbaad.
+Ek hi bacha hai ab to jugaad,
+StackOverflow bhi gaya thak haar.
 
-In the dark blue sky you keep,
-And often through my curtains peep,
-For you never shut your eye,
-Till the sun is in the sky.
-
-As your bright and tiny spark
-Lights the traveller in the dark,
-Though I know not what you are,
-Twinkle, twinkle, little star.
+AI lagayega apni naiyya paar,
+Prompt likhenge baar baar.
+Samajh aaye ya aaye bug hazaar,
+Twinkle twinkle little star.
