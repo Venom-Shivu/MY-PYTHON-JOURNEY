@@ -48,9 +48,8 @@ class Employee:
         self.name = name
         self.occupation = occupation
         self.net_worth = net_worth
-# The `__init__` function
+#                   The `__init__` function
 # All classes have a function called `__init__()`, which is always executed when the class is being initiated.
-
 # Use the `__init__()` function to assign values to object properties,
 # or other operations that are necessary to do when the object is being created:
 
@@ -58,14 +57,12 @@ class Employee:
         """
         Displays basic information about the employee.
         """
-        print(f"{self.name} works as a {self.occupation}.")
+        print(f"{self.name} works as a {self.occupation} with salary ₹{self.net_worth}.")
 
 # The self parameter is a reference to the current instance of the class,
 # and is used to access variables that belong to the class.
-
 # It does not have to be named `self`, you can call it whatever you like,
 # but it has to be the first parameter of any function in the class.
-
 # The `self` parameter is implicitly passed when you call a method on an object.
 
 
