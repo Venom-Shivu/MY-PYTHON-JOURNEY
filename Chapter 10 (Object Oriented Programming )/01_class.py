@@ -85,16 +85,31 @@ print(shivu.language, shivu.salary) # Returns Python 120000
 # Objects of a given class can invoke the methods available to it without revealing the implementation
 # detailed to the user.--ABSTTRACTIONS & ENCAPSULATION! 
 
+#INSTANCE ATTRIBUTES: An attribute that belongs to the instance (object). Assuming the class in previuos example (self.name, self.net_worth and so on)
+# NOTE: Instance attributes, take preference over class attributes during assignment and retrieval.
+
+
 a = Employee("Shiva", "Programmer", '10,00,000') # To use comma in salary it is now in string format not number format (int)
 b = Employee("Divya", "HR", 500_000)
 c = Employee("Rahul", "Accountant", 700_000)
 d = Employee("Venom", "Data-Analyst",150000)
 
+# Accessing instance attributes
+print(a.name)
+
+print(a.occupation)
+print(a.net_worth)
 # Calling methods on objects
 a.info()
+print(b.name)
+print(b.net_worth)
+print(b.__dict__) # The __dict__ attribute returns a dictionary containing the object's instance attributes. This is an instance dictionary.
+print(b.occupation)
 b.info()
 c.info()
 d.info()
+
+print(a.__dict__) 
 
 
 # ============================================================
@@ -113,8 +128,3 @@ NOUN        → Employee
 ADJECTIVES  → name, occupation, net_worth
 VERBS       → info(), increment_salary(), get_salary()
 """
-
-
-
-
-
