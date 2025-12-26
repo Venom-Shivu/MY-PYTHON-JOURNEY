@@ -35,9 +35,19 @@ class Employee:
     Attributes:
         name (str): Name of the employee
         occupation (str): Job role
-        net_worth (int): Financial worth
+        net_worth (int): Financial worth"""
     """
+-------EXAMPLE OF A CLASS:-----------
+class Employee()
+    language = "Python"
+    salary = 120000
 
+shivu = Employee()
+print(shivu.language, shivu.salary) # Returns Python 120000
+
+""" # This closing triple quote was intended to close the docstring for the class, not the example. This is a class variable.
+ #This is an example of a class variable.
+ 
     def __init__(self, name, occupation, net_worth):
         """
         Constructor method.
@@ -75,14 +85,16 @@ class Employee:
 # Objects of a given class can invoke the methods available to it without revealing the implementation
 # detailed to the user.--ABSTTRACTIONS & ENCAPSULATION! 
 
-a = Employee("Shiva", "Programmer", 1_000_000)
+a = Employee("Shiva", "Programmer", '10,00,000') # To use comma in salary it is now in string format not number format (int)
 b = Employee("Divya", "HR", 500_000)
 c = Employee("Rahul", "Accountant", 700_000)
+d = Employee("Venom", "Data-Analyst",150000)
 
 # Calling methods on objects
 a.info()
 b.info()
 c.info()
+d.info()
 
 
 # ============================================================
