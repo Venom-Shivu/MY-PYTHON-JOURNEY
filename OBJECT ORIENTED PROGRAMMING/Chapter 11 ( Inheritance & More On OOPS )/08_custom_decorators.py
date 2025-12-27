@@ -40,7 +40,7 @@ def greet_decorator(func):
         # Call the original function with its arguments
         result = func(*args, **kwargs)
 
-        # Code that runs AFTER the original function
+        # Code that runs AFTER the original function (e.g., logging, cleanup)
         print(">> [Decorator] After function execution")
 
         # Return the original function's result (if any)
