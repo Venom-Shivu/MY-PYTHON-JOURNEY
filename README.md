@@ -4,6 +4,9 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Venom-Shivu/MY-PYTHON-JOURNEY)
+![GitHub last commit](https://img.shields.io/github/last-commit/Venom-Shivu/MY-PYTHON-JOURNEY)
+![GitHub issues](https://img.shields.io/github/issues/Venom-Shivu/MY-PYTHON-JOURNEY)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Venom-Shivu/MY-PYTHON-JOURNEY)
 ![GitHub stars](https://img.shields.io/github/stars/Venom-Shivu/MY-PYTHON-JOURNEY?style=social)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -95,19 +98,6 @@ Focus on collaboration and improvement.
 
 ---
 
-## 🔮 Future Roadmap
-
-Planned additions include:
-
-* Data Analysis with Python (NumPy, Pandas, Matplotlib, Seaborn)
-* Exploratory Data Analysis on real datasets
-* Visualization dashboards
-* Introductory Machine Learning with Scikit-Learn
-
-Quality and understanding will always come before speed.
-
----
-
 ## 👨‍💻 Author
 **Shivansh Yadav**  
 
@@ -125,7 +115,6 @@ Quality and understanding will always come before speed.
 
 ## 📌 License
 
-This project is open-source and licensed under the MIT License.
-
+This project is open-source and licensed under the [MIT License](LICENSE).
 
 ---
