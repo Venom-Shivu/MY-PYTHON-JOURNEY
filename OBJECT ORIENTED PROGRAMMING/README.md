@@ -1,15 +1,21 @@
 
 ---
-![Image](https://substackcdn.com/image/fetch/%24s_%21lMAf%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72d3654b-44b5-4708-a634-527534bd0937_3772x3040.png)
+![OOP Banner](https://substackcdn.com/image/fetch/%24s_%21lMAf%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72d3654b-44b5-4708-a634-527534bd0937_3772x3040.png)
 
-# 📘 Chapter 10: Object-Oriented Programming (OOP)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+# 📘 Object-Oriented Programming (OOP)
 
-## 📌 Chapter Overview
+## 📌 Section Overview
 
 At this stage, Python basics and functional programming are no longer enough. As applications grow, code must be structured to handle **complexity, change, and scale**.
 Object-Oriented Programming (OOP) provides that structure.
 
 OOP organizes programs around **objects** that combine data and behavior, closely mirroring real-world systems.
+
+### 📂 Chapters Included
+
+* **Chapter 10** – Object Oriented Programming Fundamentals
+* **Chapter 11** – Inheritance and more on OOPs
 
 ---
 
