@@ -43,7 +43,7 @@ For **full-fledged coding practice, detailed comments, and mini-projects**, plea
 **Venom (Shivansh Yadav)**
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600" alt="Venom Signature - Code like a Ghost" style="border-radius: 10px; border: 2px solid red;">
+  <img src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?auto=format&fit=crop&q=80&w=600" alt="Venom - Ghost Coding" style="border-radius: 10px; border: 2px solid red;">
 </div>
 
 <br>
