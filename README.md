@@ -16,7 +16,7 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 
 ## 📚 Repository Contents
 
-### [Python Basics](Basics)
+### [Python Basics](PYTHON-BASICS)
 
 * Chapter 1 – Modules, Comments & pip
 * Chapter 2 – Variables & Data Types
@@ -28,12 +28,12 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 * Chapter 8 – Functions & Recursion (Mini Project: Snake-Water-Gun Game)
 * Chapter 9 – File I/O
 
-### [Object Oriented Programming](Object%20Oriented%20Programming)
+### [Object Oriented Programming](OBJECT ORIENTED PROGRAMMING)
 
 * Chapter 10 – Object Oriented Programming Fundamentals
 * Chapter 11 – Inheritance & Advanced OOP (Mini Project: Perfect Guess Game)
 
-### [Advanced Python](Advanced%20Python)
+### [Advanced Python](ADVANCED PYTHON)
 
 * Chapter 12 – Advanced Python (Part 1)
 * Chapter 13 – Advanced Python (Part 2)
