@@ -35,7 +35,6 @@ For **full-fledged coding practice, detailed comments, and mini-projects**, plea
 | :--- | :--- |
 | **PYTHON_Notes.pdf** | Handwritten notes covering the entire syllabus. |
 | **Interview_Questions.docx** | A curated list of commonly asked interview questions (Generated via script). |
-| **generate_interview_questions.py** | Python script to generate the interview Q&A document. |
 
 ---
 
@@ -44,7 +43,7 @@ For **full-fledged coding practice, detailed comments, and mini-projects**, plea
 **Venom (Shivansh Yadav)**
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=600" alt="Venom Coding Style" style="border-radius: 10px; border: 2px solid red;">
+  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600" alt="Venom Signature - Code like a Ghost" style="border-radius: 10px; border: 2px solid red;">
 </div>
 
 <br>
