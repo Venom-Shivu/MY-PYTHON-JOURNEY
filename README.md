@@ -25,15 +25,15 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 * Chapter 5 – Dictionaries & Sets
 * Chapter 6 – Conditional Expressions
 * Chapter 7 – Loops in Python
-* Chapter 8 – Functions & Recursion (Mini Project: Snake-Water-Gun Game)
+* Chapter 8 – Functions & Recursion 
 * Chapter 9 – File I/O
 
-### [Object Oriented Programming](OBJECT ORIENTED PROGRAMMING)
+### [Object Oriented Programming](OBJECT%20ORIENTED%20PROGRAMMING)
 
 * Chapter 10 – Object Oriented Programming Fundamentals
-* Chapter 11 – Inheritance & Advanced OOP (Mini Project: Perfect Guess Game)
+* Chapter 11 – Inheritance & Advanced OOP 
 
-### [Advanced Python](ADVANCED PYTHON)
+### [Advanced Python](ADVANCED%20PYTHON)
 
 * Chapter 12 – Advanced Python (Part 1)
 * Chapter 13 – Advanced Python (Part 2)
@@ -41,10 +41,10 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 Each chapter contains well-commented code, practice problems, and logical explanations.
 
 ---
-
+ 
 ### [Notes](NOTES)
 
-* [Handwritten notes in PDF format](PYTHON_Notes.pdf)
+* [Handwritten notes in PDF format](NOTES/PYTHON_Notes.pdf)
 
 ---
 
