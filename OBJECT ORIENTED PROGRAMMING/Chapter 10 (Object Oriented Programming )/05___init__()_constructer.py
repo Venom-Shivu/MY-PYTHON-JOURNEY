@@ -1,53 +1,51 @@
-#                           ----------------------------------------------------------
-#                                          __init__() CONSTRUCTOR
-#                           ----------------------------------------------------------
+#                           ==================================================
+#                                    __init__() CONSTRUCTOR & "DUNDER"
+#                           ==================================================
 
-"""  __INIT__() is a special method which is automatically called when an object is created. It is used to initialize the object's state. 
-     It is similar to constructors in other object-oriented languages.
+# A "dunder" method means:
+'''         Double UNDERscore method → __something__
+            These methods are special and are called by Python automatically.
+            Example: __init__, __str__, __len__       '''
 
-KEY POINTS: 
-1.  It is known as the CONSTRUCTOR in Object Oriented Programming.
-2.  It is automatically invoked (called) the moment an object is instantiated.
-3.  Syntax: def __init__(self, arg1, arg2, ...):
-4.  Primary Purpose: To INITIALIZE the object's attributes (variables) with specific values.
-5.  The 'self' parameter is required (as usual) to refer to the instance being created. 
-"""
+# __init__ is a dunder method used to SET UP an object.
+# Think of it as "object setup" or "object birth method".
+# It is also called a CONSTRUCTOR.
 
 class Employee:
-    # This is the Constructor
-    # It takes arguments to set up the object immediately upon creation
+
+    # __init__ runs automatically when a new object is created
+    # It is used to give initial values to the object
     def __init__(self, name, salary, language):
-        print(">> __init__ method called: Creating a new Employee object...") 
-        
-        # Initializing instance attributes
-        # We assign the incoming arguments to self.variable_name
+       
+        # self refers to the current object being created
+        # We store data inside the object using self.variable
         self.name = name
         self.salary = salary
         self.language = language
-        
-        print(f"   Employee '{self.name}' created successfully!\n")
 
+
+    # Normal method (not a dunder method)
+    # This method only runs when we call it manually
     def get_details(self):
-        print(f"Name: {self.name}")
-        print(f"Salary: {self.salary}")
-        print(f"Language: {self.language}")
+        print(f"---------Initializing Employee Object with __init__ for {self.name}---------")
+        print("Name:", self.name)
+        print("Salary:", self.salary)
+        print("Language:", self.language)
         print("-" * 20)
 
+
 # ============================================================
-# Creating Objects (Invoking __init__)
+# Object Creation
 # ============================================================
 
-# When we write Employee(...), Python calls __init__(...) internally.
+# When we write Employee(...):
+# 1. Python creates a new empty object
+# 2. Python automatically calls __init__() after object is created
+# 3. Data is stored inside the object
 
-print("--- 1. Creating 'shivu' ---")
-# Arguments "Shiva", 120000, "Python" are passed to name, salary, language in __init__
-shivu = Employee("Shiva", 120000, "Python") 
-
-print("--- 2. Creating 'rohan' ---")
+shivu = Employee("Shiva", 120000, "Python")
 rohan = Employee("Rohan", 50000, "Java")
 
-# Accessing the data initialized by __init__
-print("--- Checking Details ---")
+# Calling normal methods using the object
 shivu.get_details()
 rohan.get_details()
-
