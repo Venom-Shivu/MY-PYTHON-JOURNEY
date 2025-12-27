@@ -38,11 +38,13 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 * Chapter 12 – Advanced Python (Part 1)
 * Chapter 13 – Advanced Python (Part 2)
 
-### [Notes](Notes)
-
-* [Handwritten notes in PDF format](Notes)
-
 Each chapter contains well-commented code, practice problems, and logical explanations.
+
+---
+
+### [Notes](NOTES)
+
+* [Handwritten notes in PDF format](PYTHON_Notes.pdf)
 
 ---
 
