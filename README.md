@@ -41,9 +41,9 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 Each chapter contains well-commented code, practice problems, and logical explanations.
 
  
-### [Notes](NOTES)
+### [Notes](NOTES_&_INTERVIEW_QUESTIONS)
 
-* [Handwritten notes in PDF format](NOTES/PYTHON_Notes.pdf)
+* [Handwritten notes in PDF format](NOTES_&_INTERVIEW_QUESTIONS/PYTHON_Notes.pdf)
 
 ---
 
