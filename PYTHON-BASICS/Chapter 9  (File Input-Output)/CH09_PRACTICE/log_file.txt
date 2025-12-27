@@ -1,0 +1,12 @@
+[2025-01-12 10:15:23] INFO  Application started successfully
+[2025-01-12 10:15:24] INFO  Loading configuration files
+[2025-01-12 10:15:25] WARNING Deprecated setting found in config.yaml
+[2025-01-12 10:15:27] INFO  Initializing database connection
+[2025-01-12 10:15:29] ERROR Database connection timeout
+[2025-01-12 10:15:35] INFO  Retrying connection attempt
+[2025-01-12 10:15:40] INFO  Database connected successfully
+[2025-01-12 10:15:45] INFO  Starting backend services
+[2025-01-12 10:15:50] INFO  Python service initialized
+[2025-01-12 10:15:55] INFO  python worker thread started
+[2025-01-12 10:16:02] ERROR Unexpected shutdown detected
+[2025-01-12 10:16:10] INFO  Application terminated

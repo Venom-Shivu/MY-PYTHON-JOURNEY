@@ -16,7 +16,7 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 
 ## 📚 Repository Contents
 
-### Core Python
+### Python Basics
 
 * Chapter 1 – Modules, Comments & pip
 * Chapter 2 – Variables & Data Types
@@ -37,6 +37,10 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 
 * Chapter 12 – Advanced Python (Part 1)
 * Chapter 13 – Advanced Python (Part 2)
+
+### Notes
+
+* Handwritten notes in PDF format
 
 Each chapter contains well-commented code, practice problems, and logical explanations.
 
