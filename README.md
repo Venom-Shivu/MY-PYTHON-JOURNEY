@@ -40,7 +40,6 @@ This repository emphasizes clean code, strong fundamentals, logical progression,
 
 Each chapter contains well-commented code, practice problems, and logical explanations.
 
----
  
 ### [Notes](NOTES)
 
