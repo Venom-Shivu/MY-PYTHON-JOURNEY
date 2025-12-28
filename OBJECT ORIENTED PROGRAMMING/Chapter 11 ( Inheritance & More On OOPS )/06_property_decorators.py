@@ -1,96 +1,95 @@
 # ============================================================
-#            PROPERTY DECORATORS (GETTERS / SETTERS)
+#        PROPERTY DECORATORS (GETTERS / SETTERS)
 # ============================================================
+
 """
-WHAT ARE PROPERTY DECORATORS?
------------------------------
-Property decorators allow a method to behave like an attribute.
+PROPERTY DECORATORS:
+--------------------
+Property decorators allow methods to be accessed like attributes.
 
-Why they exist:
-1. Control access to internal data (encapsulation)
-2. Validate data before assigning it
-3. Compute values dynamically instead of storing them
+WHY WE USE THEM:
+1. To protect internal data (encapsulation)
+2. To validate or control values before setting them
+3. To compute values dynamically instead of storing them
 
-Decorators used:
-- @property        → getter  (read-only access)
-- @property_name.setter  → setter (controlled write access)
-- @property_name.deleter → deleter (controlled delete access)
+MAIN DECORATORS:
+- @property              -> Getter (read-only access)
+- @property_name.setter  -> Setter (controlled write access)
 """
 
 class Employee:
+    # --------------------------------------------------------
+    # CLASS ATTRIBUTE
+    # --------------------------------------------------------
+    # Shared by ALL objects of the class
+    company = "Venom Corp"
+
     def __init__(self, first_name, last_name):
-        # Internal attributes (should not be accessed directly)
-        self._first = first_name
-        self._last = last_name
+        # INSTANCE ATTRIBUTES
+        # Unique for each object
+        self.first_name = first_name
+        self.last_name = last_name
 
     # --------------------------------------------------------
-    # GETTER
+    # CLASS METHOD
+    # --------------------------------------------------------
+    @classmethod
+    def show_company(cls):
+        # 'cls' refers to the class itself, not an object
+        print(f"Company Name: {cls.company}")
+
+    # --------------------------------------------------------
+    # GETTER (READ ACCESS)
     # --------------------------------------------------------
     @property
-    def email(self):
+    def name(self):
         """
-        Acts like a normal variable: emp.email
-        Email is generated dynamically from first and last name.
+        Acts like an attribute but is actually a method.
+        Combines first_name and last_name dynamically.
         """
-        if self._first is None or self._last is None:
-            return "Email not available"
-        return f"{self._first.lower()}.{self._last.lower()}@company.com"
+        return f"{self.first_name} {self.last_name}"
 
     # --------------------------------------------------------
-    # SETTER
+    # SETTER (WRITE ACCESS)
     # --------------------------------------------------------
-    @email.setter
-    def email(self, value):
+    @name.setter
+    def name(self, value):
         """
-        Allows setting email like:
-        emp.email = "john.doe@company.com"
-
-        Validates format and updates first and last name.
+        Controls how 'name' is assigned.
+        Ensures proper splitting of first and last name.
         """
-        if "@" not in value or "." not in value:
-            raise ValueError("Invalid email format")
+       
+        # 'parts' is a list created from the split() operation.
+        # Example: "Shivansh Yadav".split(" ") → ["Shivansh", "Yadav"]
+        parts = value.split(" ")
 
-        print(f">> Updating email to: {value}")
 
-        name_part = value.split("@")[0]
-        first, last = name_part.split(".")
+        if len(parts) != 2:
+            raise ValueError("Name must contain exactly two words")
 
-        self._first = first.capitalize()
-        self._last = last.capitalize()
+        # parts[0] accesses the FIRST element of the list → first name
+        self.first_name = parts[0]
 
-    # --------------------------------------------------------
-    # DELETER
-    # --------------------------------------------------------
-    @email.deleter
-    def email(self):
-        """
-        Allows deletion using:
-        del emp.email
-
-        Resets related internal data safely.
-        """
-        print(">> Deleting email and clearing names")
-        self._first = None
-        self._last = None
+        # parts[1] accesses the SECOND element of the list → last name
+        self.last_name = parts[1]
 
 
 # ============================================================
-#                   USAGE & DEMONSTRATION
+#                OBJECT CREATION & USAGE
 # ============================================================
 
-emp = Employee("Shivansh", "Yadav")
+# Creating an object (instance)
+emp = Employee("Venom", "Shivansh")
 
-# Getter works like an attribute
-print(f"Initial Email : {emp.email}")
+# Accessing property (getter)
+print(emp.name)   # Looks like an attribute, works like a method
 
-# Setter updates internal state safely
-emp.email = "venom.coding@company.com"
-print(f"Updated Email : {emp.email}")
+# Modifying property (setter)
+emp.name = "Shivansh Yadav"
 
-# Accessing internal data (still available)
-print(f"First Name    : {emp._first}")
-print(f"Last Name     : {emp._last}")
+# Accessing updated instance attributes
+print(emp.first_name)
+print(emp.last_name)
 
-# Deleter resets the data
-del emp.email
-print(f"After Delete  : {emp.email}")
+# Accessing class method
+Employee.show_company()

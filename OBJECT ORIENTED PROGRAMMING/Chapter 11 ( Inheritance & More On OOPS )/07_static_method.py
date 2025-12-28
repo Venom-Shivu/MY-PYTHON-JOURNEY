@@ -1,74 +1,71 @@
 # ============================================================
-#                       STATIC METHODS
+#                     STATIC METHODS
 # ============================================================
+
 """
-WHAT IS A STATIC METHOD?
-------------------------
-A static method is a method that belongs to a class but does NOT
-depend on:
-- the object (self)
-- the class itself (cls)
+STATIC METHOD:
+--------------
+A static method is a method placed inside a class
+ONLY because it logically belongs there.
 
-It is placed inside a class only because it is logically related
-to that class.
+It does NOT use:
+- self  (object data)
+- cls   (class data)
 
-WHEN TO USE:
-- Utility functions
-- Helper calculations
-- Validation logic
+It behaves like a normal function, but with class-level grouping.
 """
 
-class MathOperations:
-    """
-    This class groups mathematical utility functions.
-    No object data is required to use these methods.
-    """
+class Employee:
 
+    # CLASS ATTRIBUTE (shared by all employees)
+    company = "Venom Corp"
+
+    def __init__(self, first_name, last_name):
+        # INSTANCE ATTRIBUTES (unique to each object)
+        self.first_name = first_name
+        self.last_name = last_name
+
+    # --------------------------------------------------------
+    # STATIC METHOD
+    # --------------------------------------------------------
     @staticmethod
-    def add(a, b):
-        # Performs addition using only the given inputs
-        # No access to instance or class data
-        return a + b
+    def is_valid_name(name):
+        """
+        Static method used for validation.
+        It does NOT depend on object or class data.
+        """
+        # Name must contain exactly two words
+        parts = name.split(" ")
+        return len(parts) == 2
 
-    @staticmethod
-    def subtract(a, b):
-        # Performs subtraction
-        return a - b
-
-    @staticmethod
-    def greet():
-        # Simple utility method with no dependency on object or class
-        print("Hello! I am a static method inside MathOperations.")
-
-
-# ============================================================
-#                   USAGE & DEMONSTRATION
-# ============================================================
-
-# Preferred way: call static methods using the CLASS name
-print("Using class name:")
-print(f"Addition    : {MathOperations.add(10, 5)}")
-print(f"Subtraction : {MathOperations.subtract(10, 5)}")
-MathOperations.greet()
-
-# Static methods CAN be called using an object,
-# but this is discouraged because it suggests instance usage
-print("\nUsing object (works but not recommended):")
-obj = MathOperations()
-print(f"Addition    : {obj.add(20, 20)}")
+    # --------------------------------------------------------
+    # INSTANCE METHOD
+    # --------------------------------------------------------
+    def show_details(self):
+        # Uses instance data, so 'self' is required
+        print(f"Employee Name : {self.first_name} {self.last_name}")
+        print(f"Company       : {Employee.company}")
 
 
 # ============================================================
-#                       FINAL NOTE
+#                 USAGE & DEMONSTRATION
 # ============================================================
-"""
-Static methods:
-- Do NOT receive self
-- Do NOT receive cls
-- Do NOT modify object or class state
 
-If a method needs:
-- object data → use INSTANCE METHOD
-- class data  → use CLASS METHOD
-- neither     → use STATIC METHOD
-"""
+# Using static method with CLASS name (BEST PRACTICE)
+print("Using static method with class name:")
+print(Employee.is_valid_name("Venom Shivansh"))   # True
+print(Employee.is_valid_name("Venom"))             # False
+
+
+# Creating an Employee object
+emp = Employee("Venom", "Shivansh")
+
+# Calling instance method
+emp.show_details()
+
+
+# ------------------------------------------------------------
+# Static method can be called using object (NOT recommended)
+# ------------------------------------------------------------
+print("\nCalling static method using object (works but bad practice):")
+print(emp.is_valid_name("Shivansh Yadav"))

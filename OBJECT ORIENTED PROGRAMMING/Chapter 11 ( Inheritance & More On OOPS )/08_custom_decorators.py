@@ -1,96 +1,126 @@
 # ============================================================
-#                       CUSTOM DECORATORS
+#                   CUSTOM DECORATORS
 # ============================================================
+
 """
-WHAT IS A DECORATOR?
---------------------
-A decorator is a function that:
-1. Takes another function as input
-2. Adds extra behavior to it
-3. Returns a new function (wrapped version)
+DECORATOR:
+----------
+A decorator is a function that wraps another function
+to add extra behavior without changing the original code.
 
-Important:
-- The original function is NOT modified
-- The behavior is extended by wrapping it
-
-Syntax:
-@decorator_name
-def function():
-    pass
+Common uses:
+- Logging
+- Validation
+- Timing
+- Authorization
 """
 
-from functools import wraps   # Used to preserve function metadata
+from functools import wraps   # Keeps original function name & docstring
 
 
 # ============================================================
-#                   DECORATOR DEFINITION
+#               DECORATOR DEFINITION
 # ============================================================
 
-def greet_decorator(func):
+def log_action(func):
     """
-    This decorator adds messages before and after
-    the execution of the target function.
+    This decorator logs when a function starts and ends.
     """
 
     @wraps(func)
     def wrapper(*args, **kwargs):
-        # Code that runs BEFORE the original function
-        print("\n>> [Decorator] Before function execution")
+        """
+        *args   → Collects all POSITIONAL arguments passed
+                  to the original function as a tuple.
 
-        # Call the original function with its arguments
+        **kwargs → Collects all KEYWORD arguments passed
+                   to the original function as a dictionary.
+
+        Why needed?
+        -----------
+        Because the decorator should work with ANY function,
+        no matter how many arguments it receives.
+        """
+
+        # Code executed BEFORE the original function
+        print("\n[LOG] Function started:", func.__name__)
+
+        # Call the original function with the SAME arguments
+        # *args   → passes positional arguments back
+        # **kwargs → passes keyword arguments back
         result = func(*args, **kwargs)
 
-        # Code that runs AFTER the original function (e.g., logging, cleanup)
-        print(">> [Decorator] After function execution")
+        # Code executed AFTER the original function
+        print("[LOG] Function finished:", func.__name__)
 
-        # Return the original function's result (if any)
+        # Return the original function's result (if any) like here is show details()
         return result
 
-    # Return the wrapped function
+    # Return the wrapped version of the function
     return wrapper
 
 
 # ============================================================
-#                   APPLYING THE DECORATOR
+#                   EMPLOYEE CLASS
 # ============================================================
 
-@greet_decorator
-def hello():
-    """Prints a greeting message"""
-    print("   Hello World! I am the main function.")
+class Employee:
 
+    def __init__(self, first_name, last_name):
+        # Instance attributes
+        self.first_name = first_name
+        self.last_name = last_name
 
-@greet_decorator
-def bye():
-    """Prints a farewell message"""
-    print("   Goodbye! See you soon.")
+    # --------------------------------------------------------
+    # DECORATED INSTANCE METHOD
+    # --------------------------------------------------------
+    @log_action
+    def show_details(self):
+        """
+        This method takes ONLY 'self'.
+        'self' will be captured inside *args automatically.
+        """
+        print(f"Employee Name: {self.first_name} {self.last_name}")
+
+    # --------------------------------------------------------
+    # DECORATED METHOD WITH PARAMETERS
+    # --------------------------------------------------------
+    @log_action
+    def update_name(self, full_name):
+        """
+        full_name → passed as a positional argument
+        and captured inside *args.
+        """
+        first, last = full_name.split(" ")
+        self.first_name = first
+        self.last_name = last
+        print("Name updated successfully")
 
 
 # ============================================================
 #                   USAGE & OUTPUT
 # ============================================================
 
-# Calling hello() actually calls wrapper()
-hello()
+# Creating an Employee object
+emp = Employee("Venom", "Shivansh")
 
-bye()
+# When calling this method:
+# emp.show_details()
+#
+# Internally becomes:
+# wrapper(emp)
+#
+# emp → stored inside *args
+emp.show_details()
 
+# When calling this method:
+# emp.update_name("Shivansh Yadav")
+#
+# Internally becomes:
+# wrapper(emp, "Shivansh Yadav")
+#
+# emp, "Shivansh Yadav" → stored inside *args
+emp.update_name("Shivansh Yadav")
 
-# ============================================================
-#                   FINAL EXPLANATION
-# ============================================================
-"""
-@decorator syntax is just shorthand.
-
-This:
-@ greet_decorator
-def hello():
-    pass
-
-Means this:
-hello = greet_decorator(hello)
-
-Decorator execution order:
-1. Decorator wraps the function (once)
-2. Wrapper runs every time the function is called
-"""
+# Calling again to see updated values
+emp.show_details()
