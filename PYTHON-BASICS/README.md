@@ -71,7 +71,8 @@ print(f"Even Numbers: {evens}")
 ## 🚀 Next Steps
 
 Once you are comfortable with these basics, move on to **Object-Oriented Programming (OOP)** to learn how to structure larger applications.
+## Object Oriented Programming
 
-👉 **Go to Object Oriented Programming**
+👉 **Go To [Object Oriented Programming](../OBJECT%20ORIENTED%20PROGRAMMING)**
 
 ---

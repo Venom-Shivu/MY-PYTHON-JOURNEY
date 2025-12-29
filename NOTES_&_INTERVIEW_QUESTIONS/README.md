@@ -40,7 +40,7 @@ For **full-fledged coding practice, detailed comments, and mini-projects**, plea
 
 ## 👨‍💻 Author
 
-**Venom (Shivansh Yadav)**
+**Shivansh Yadav**
 
 <br>
 
