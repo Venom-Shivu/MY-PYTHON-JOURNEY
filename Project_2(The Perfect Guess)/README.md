@@ -1,8 +1,4 @@
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/venom-shivu/Perfect-Guess/main/assets/banner.png" alt="Perfect Guess Banner" width="800"/>
-</p>
-
 <h1 align="center">🎯 Perfect Guess</h1>
 <p align="center"><b>A Clean & Structured Number Guessing Game</b></p>
 <p align="center">Randomized gameplay • Performance tracking • OOP design</p>

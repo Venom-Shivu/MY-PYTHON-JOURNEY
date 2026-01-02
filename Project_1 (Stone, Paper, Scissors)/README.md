@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80" 
-       alt="Stone Paper Scissors Python Game Banner" 
-       width="100%">
-</p>
 
 # 🎮 Stone, Paper, Scissors — Python Console Game
 
