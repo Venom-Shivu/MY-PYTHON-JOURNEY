@@ -1,62 +1,51 @@
 import random
 
-# ------------------------------------------
-# 1. CONSTANT DEFINITIONS
-# ------------------------------------------
-# Index-based mapping keeps logic compact and avoids long if-else blocks
-CHOICES = ["Rock", "Paper", "Scissors"]
+# ==========================================
+#      ROCK | PAPER | SCISSORS (Optimized)
+# ==========================================
 
-# Result mapping based on modular arithmetic outcome
-# 0 → Tie
-# 1 → Computer wins
-# 2 → User wins
-RESULTS = ["Tie!", "Computer Wins!", "You Win!"]
+CHOICES = ("Rock", "Paper", "Scissors")
+RESULTS = ("Tie!", "Computer Wins!", "You Win!")
 
 
-# ------------------------------------------
-# 2. USER & COMPUTER INPUT
-# ------------------------------------------
-user_choice = int(input("Enter 0 (Rock), 1 (Paper), or 2 (Scissors): "))
-computer_choice = random.randint(0, 2)
+def get_user_choice():
+    """
+    Safely obtains and validates user input.
+    Returns an integer in range [0, 2].
+    """
+    while True:
+        try:
+            choice = int(input("Enter 0 (Rock), 1 (Paper), or 2 (Scissors): "))
+            if choice in (0, 1, 2):
+                return choice
+            print("Invalid choice. Please enter 0, 1, or 2.\n")
+        except ValueError:
+            print("Invalid input. Please enter a number.\n")
 
 
-# ------------------------------------------
-# 3. CORE GAME LOGIC (SHORTCUT)
-# ------------------------------------------
-"""
-Logic Explanation (This is the key part):
+def play_round():
+    """Plays one round of Rock-Paper-Scissors."""
+    user_choice = get_user_choice()
+    computer_choice = random.randint(0, 2)
 
-We assign numbers:
-Rock = 0, Paper = 1, Scissors = 2
+    # Core optimized logic (your idea, preserved)
+    outcome_index = (computer_choice - user_choice) % 3
 
-We compute:
-    (computer_choice - user_choice) % 3
-
-Why this works:
-------------------------------------------------
-Case 1: Same choice
-    (x - x) % 3 = 0 → Tie
-
-Case 2: Computer wins
-    Rock(0) beats Scissors(2) → (0 - 2) % 3 = 1
-    Paper(1) beats Rock(0)    → (1 - 0) % 3 = 1
-    Scissors(2) beats Paper(1)→ (2 - 1) % 3 = 1
-
-Case 3: User wins
-    Scissors(2) beats Rock(0) → (0 - 2) % 3 = 2
-    Rock(0) beats Paper(1)    → (1 - 0) % 3 = 2
-    Paper(1) beats Scissors(2)→ (2 - 1) % 3 = 2
-
-The modulo (%) ensures the result always stays in the range [0, 2],
-which directly maps to the RESULTS list.
-"""
-
-outcome_index = (computer_choice - user_choice) % 3
+    print(f"\nYou       : {CHOICES[user_choice]}")
+    print(f"Computer  : {CHOICES[computer_choice]}")
+    print(f"Result    : {RESULTS[outcome_index]}")
+    print("-" * 40)
 
 
-# ------------------------------------------
-# 4. OUTPUT
-# ------------------------------------------
-print(f"\nYou: {CHOICES[user_choice]}")
-print(f"Computer: {CHOICES[computer_choice]}")
-print(f"Result: {RESULTS[outcome_index]}")
+def main():
+    """Main game loop."""
+    while True:
+        play_round()
+        again = input("Play again? (y/n): ").strip().lower()
+        if again != "y":
+            print("\nGame Over. Thanks for playing!")
+            break
+
+
+if __name__ == "__main__":
+    main()
