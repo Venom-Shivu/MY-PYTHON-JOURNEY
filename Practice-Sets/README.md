@@ -36,7 +36,7 @@ Practice-Sets/
 
 1. **Read the Questions**: Open `Practice_Questions.pdf` to find the problem statements.
 2. **Attempt the Solution**: Try to solve the problems on your own first to build logical thinking.
-3. **Check the Solution**: Navigate to the `[Solutions](/SOLUTIONS%20(PRACTICE_SETS))` folder to compare your code with the reference implementation.
+3. **Check the Solution**: Navigate to the [Solutions](SOLUTIONS_(PRACTICE_SETS)) folder to compare your code with the reference implementation.
 
 ---
 
