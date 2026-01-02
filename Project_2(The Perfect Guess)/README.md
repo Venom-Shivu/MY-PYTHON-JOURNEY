@@ -1,8 +1,12 @@
-# 🎯 Perfect Guess — Advanced Number Guessing Game
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Venom-Shivu/assets/main/perfect-guess-banner.png" alt="Perfect Guess Banner" width="100%">
+  <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1600&q=80"
+       alt="Perfect Guess Number Guessing Game Banner"
+       width="100%">
 </p>
+<h1 align="center">🎯 Perfect Guess — Number Guessing Game</h1>
+<p align="center"><i>Randomized gameplay • Performance tracking • Clean logic</i></p>
+
+
 
 ## 📌 Overview
 **Perfect Guess** is a command-line number guessing game built in Python using **Object-Oriented Programming (OOP)**.  
@@ -62,7 +66,6 @@ Educational use only.
 
 **Shivansh Yadav**
 
-```
 
 
 
