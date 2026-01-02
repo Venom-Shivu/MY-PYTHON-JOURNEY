@@ -22,8 +22,8 @@ This section introduces OOP concepts as they are used in **real Python projects*
 
 | Chapter | Topic |
 | :---: | :--- |
-| **10** | Object-Oriented Programming Fundamentals |
-| **11** | Inheritance & Advanced OOP Concepts |
+| **10** | [Object-Oriented Programming Fundamentals](Chapter_10%20(Object%20Oriented%20Programming%20)) |
+| **11** | [Inheritance & Advanced OOP Concepts](Chapter_11%20(%20Inheritance%20&%20More%20On%20OOPS%20)) |
 
 ---
 
