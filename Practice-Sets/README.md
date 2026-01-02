@@ -28,6 +28,16 @@ Practice-Sets/
     ├── Chapter-02/
     ├── Chapter-03/
     └── ...
+```
+
+---
+
+## 🚀 How to Use
+
+1. **Read the Questions**: Open `Practice_Questions.pdf` to find the problem statements.
+2. **Attempt the Solution**: Try to solve the problems on your own first to build logical thinking.
+3. **Check the Solution**: Navigate to the `SOLUTIONS (PRACTICE_SETS)/` folder to compare your code with the reference implementation.
+
 ---
 
 ## 🎯 Purpose
@@ -41,7 +51,14 @@ These practice sets are part of **my personal learning journey**, written with a
 
 ---
 
-##⚠️ Disclaimer
+## 🛠️ Prerequisites
+
+- **Python 3.x** installed on your system.
+- A code editor (e.g., VS Code, PyCharm).
+
+---
+
+## ⚠️ Disclaimer
 
 These practice questions are **my own formulations** and are intended strictly for:
 - Learning  
