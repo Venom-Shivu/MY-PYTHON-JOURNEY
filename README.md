@@ -48,9 +48,13 @@ It is designed for learners who want to **understand Python deeply rather than m
 - A **single consolidated practice document** covering basics to advanced
 - **Chapter-wise Python solutions** provided separately to encourage self-attempt before reference
 
-### [Notes](NOTES_&_INTERVIEW_QUESTIONS)
+### [Notes & Interview](NOTES_&_INTERVIEW_QUESTIONS)
+This section is dedicated to **exam and interview preparation**. It bridges the gap between coding concepts and theoretical understanding.
 
-- [Handwritten Python Notes (PDF)](NOTES_&_INTERVIEW_QUESTIONS/PYTHON_Notes.pdf)
+- **Handwritten Notes**: Concise, easy-to-revise notes covering Python syntax, memory management, and core logic.
+- **Interview Questions**: A curated list of frequently asked Python interview questions (Basic to Advanced) to help you crack technical rounds.
+
+- 📄 [Handwritten Python Notes (PDF)](NOTES_&_INTERVIEW_QUESTIONS/PYTHON_Notes.pdf)
 
 ---
 
