@@ -11,42 +11,46 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 This repository documents my complete **Python learning journey** — from beginner to advanced.  
-Each chapter includes **practice sets, quizzes, and code with detailed comments** explaining every function, so learners can easily follow along.
+Each chapter includes **well-commented code**, and the repository also contains **dedicated practice sets in PDF format with solutions** for structured learning.
 
+This repository emphasizes **clean code, strong fundamentals, logical progression, and practical understanding**.  
+It is designed for learners who want to **understand Python deeply rather than memorize syntax**.
 
-This repository emphasizes clean code, strong fundamentals, logical progression, and practical understanding. It is designed for learners who want to understand Python properly instead of memorizing syntax.
-
+---
 
 ## 📚 Repository Contents
 
 ### [Python Basics](PYTHON-BASICS)
 
-* Chapter 1 – Modules, Comments & pip
-* Chapter 2 – Variables & Data Types
-* Chapter 3 – Strings
-* Chapter 4 – Lists & Tuples
-* Chapter 5 – Dictionaries & Sets
-* Chapter 6 – Conditional Expressions
-* Chapter 7 – Loops in Python
-* Chapter 8 – Functions & Recursion 
-* Chapter 9 – File I/O
+- Chapter 1 – Modules, Comments & pip  
+- Chapter 2 – Variables & Data Types  
+- Chapter 3 – Strings  
+- Chapter 4 – Lists & Tuples  
+- Chapter 5 – Dictionaries & Sets  
+- Chapter 6 – Conditional Expressions  
+- Chapter 7 – Loops in Python  
+- Chapter 8 – Functions & Recursion  
+- Chapter 9 – File I/O  
 
 ### [Object Oriented Programming](OBJECT%20ORIENTED%20PROGRAMMING)
 
-* Chapter 10 – Object Oriented Programming Fundamentals
-* Chapter 11 – Inheritance & Advanced OOP 
+- Chapter 10 – Object Oriented Programming Fundamentals  
+- Chapter 11 – Inheritance & Advanced OOP  
 
 ### [Advanced Python](ADVANCED%20PYTHON)
 
-* Chapter 12 – Advanced Python (Part 1)
-* Chapter 13 – Advanced Python (Part 2)
+- Chapter 12 – Advanced Python (Part 1)  
+- Chapter 13 – Advanced Python (Part 2)  
 
-Each chapter contains well-commented code, practice problems, and logical explanations.
+### 📄 [Practice Sets](Practice-Sets)
 
- 
+- Chapter-wise **practice questions in PDF format**
+- A **single consolidated practice document** covering basics to advanced
+- **Chapter-wise Python solutions** provided separately to encourage self-attempt before reference
+
 ### [Notes](NOTES_&_INTERVIEW_QUESTIONS)
 
-* [Handwritten notes in PDF format](NOTES_&_INTERVIEW_QUESTIONS/PYTHON_Notes.pdf)
+- [Handwritten Python Notes (PDF)](NOTES_&_INTERVIEW_QUESTIONS/PYTHON_Notes.pdf)
 
 ---
 
@@ -54,12 +58,12 @@ Each chapter contains well-commented code, practice problems, and logical explan
 
 The purpose of this repository is to:
 
-* Build strong Python fundamentals
-* Encourage readable and maintainable code
-* Improve problem-solving skills
-* Create a solid foundation for data analysis and AI
+- Build strong Python fundamentals  
+- Encourage readable and maintainable code  
+- Improve logical thinking and problem-solving skills  
+- Create a solid foundation for **Data Analysis, AI, and real-world Python applications**
 
-This repository prioritizes understanding over speed.
+This repository prioritizes **understanding over speed**.
 
 ---
 
