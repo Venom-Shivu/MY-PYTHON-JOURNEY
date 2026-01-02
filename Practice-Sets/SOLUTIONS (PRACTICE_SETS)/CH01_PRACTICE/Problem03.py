@@ -1,3 +1,5 @@
+# Write a program to print the contents of a directory using the `os` module.
+
 import os
 
 def print_directory_contents(path):

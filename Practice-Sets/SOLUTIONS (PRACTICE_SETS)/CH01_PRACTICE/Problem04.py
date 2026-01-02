@@ -1,3 +1,5 @@
+# Add comments to your code explaining what each line does.
+
 import os
 
 def print_directory_contents(path):
