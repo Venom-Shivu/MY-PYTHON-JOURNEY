@@ -73,6 +73,5 @@ python 01_walrus.py
 ---
 
 📖 *Part of the **Advanced Python Series***  
-```
 
 ---
