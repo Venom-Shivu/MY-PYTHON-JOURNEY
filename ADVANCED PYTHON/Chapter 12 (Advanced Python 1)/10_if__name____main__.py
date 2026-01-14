@@ -1,4 +1,3 @@
-#               IF __NAME__== '__MAIN__' IN PYTHON
 """
 ==================================================
 Understanding __name__ and __main__ in Python
