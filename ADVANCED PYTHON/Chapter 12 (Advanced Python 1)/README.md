@@ -1,7 +1,8 @@
 
 # 📘 Chapter 12: Advanced Python 1  
 
-![Advanced Python Series Banner](https://raw.githubusercontent.com/Venom-Shivu/assets/main/advanced-python-banner.png)
+![Advanced Python Series Banner](https://capsule-render.vercel.app/api?type=waving&color=0:306998,100:FFD43B&height=220&section=header&text=Advanced%20Python&fontSize=40&fontColor=ffffff)
+
 
 ![Advanced-Python](https://img.shields.io/badge/Advanced-Python-blue?style=for-the-badge&logo=python)
 ![Python-3.8+](https://img.shields.io/badge/Python-3.8%2B-yellow?style=flat-square&logo=python)
