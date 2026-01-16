@@ -32,7 +32,7 @@ ADVANCED_PYTHON/
 
 ---
 
-## 📘 Chapter 12: Advanced Python 1  
+## 📘 [Chapter 12: Advanced Python 1](Chapter_12_(Advanced_Python_1))  
 **Focus:** Language features, type safety, execution flow, and Pythonic patterns.
 
 - Walrus operator (`:=`), dictionary merge (`|`, `|=`)
@@ -44,7 +44,7 @@ ADVANCED_PYTHON/
 
 ---
 
-## 📘 Chapter 13: Advanced Python 2  
+## 📘 [Chapter 13: Advanced Python 2](Chapter_13_(Advanced_Python_2))  
 **Focus:** Functional programming, tooling, and backend basics.
 
 - Virtual environments (`venv`) & `pip`
