@@ -81,4 +81,6 @@ If this feels difficult, your fundamentals need work.
 
 📖 **Advanced Python Series — Part 1 & Part 2**
 
+> **“Advanced Python isn’t about knowing more syntax —
+> it’s about writing less code that fails less often.”**
 ---
