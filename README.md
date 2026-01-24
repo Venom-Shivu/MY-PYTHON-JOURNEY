@@ -1,6 +1,6 @@
 # 🐍 My Python Journey
+[![Repository](https://img.shields.io/badge/Venom--Shivu-MY--PYTHON--JOURNEY-black?style=for-the-badge)](https://github.com/Venom-Shivu/MY-PYTHON-JOURNEY)
 
-![Banner](https://copilot.microsoft.com/th/id/BCO.f5b5bcb8-b016-4c0e-893d-4874be03058b.png)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Venom-Shivu/MY-PYTHON-JOURNEY)

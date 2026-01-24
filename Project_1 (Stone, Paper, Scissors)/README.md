@@ -16,20 +16,24 @@ The project is designed to practice **conditional logic, randomness, input valid
 ## 🧠 Game Logic Approaches
 
 ### 🔹 Method 1: Conditional Logic (`if-elif-else`)
-- Uses explicit conditions to compare user and computer choices.
-- Prioritizes **readability and clarity**.
-- Suitable for beginners learning control flow.
+- Uses explicit conditions to compare user and computer choices  
+- Prioritizes **readability and clarity**  
+- Suitable for beginners learning control flow  
 
 ### 🔹 Method 2: Modular Arithmetic (Optimized)
 - Represents moves numerically:
-  - Rock = 0, Paper = 1, Scissors = 2
+  - Rock = 0  
+  - Paper = 1  
+  - Scissors = 2  
+
 - Determines the winner using:
-  ```python
-  (computer_choice - user_choice) % 3
+
+```python
+(computer_choice - user_choice) % 3
 ````
 
-* Eliminates long conditional chains.
-* Demonstrates **efficient and scalable decision logic**.
+* Eliminates long conditional chains
+* Demonstrates **efficient and scalable decision logic**
 
 ---
 
@@ -73,7 +77,7 @@ python game.py
 
 ## 📂 File Structure
 
-```
+```text
 Stone-Paper-Scissors/
 ├── game.py
 ├── game_shortcut_method.py
@@ -98,6 +102,6 @@ This project helps reinforce:
 
 This project is intended for **educational and practice purposes**.
 
-```
 
 ---
+
