@@ -1,5 +1,10 @@
 # 🐍 My Python Journey
-[![Repository](https://img.shields.io/badge/Venom--Shivu-MY--PYTHON--JOURNEY-black?style=for-the-badge)](https://github.com/Venom-Shivu/MY-PYTHON-JOURNEY)
+<p align="center">
+  <a href="https://github.com/Venom-Shivu/MY-PYTHON-JOURNEY">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=800&color=00C2FF&center=true&vCenter=true&width=500&lines=MY+PYTHON+JOURNEY;Learn+Python+the+Right+Way;From+Basics+to+Advanced" />
+  </a>
+</p>
+
 
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
