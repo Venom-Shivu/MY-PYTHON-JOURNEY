@@ -100,5 +100,5 @@ print("\n========== COMPARISON SUMMARY ==========")
 
 print("❌ for-loop + append → more lines, more mistakes")
 print("✅ list comprehension → concise, readable, Pythonic")
-
 print("\n========== END OF LIST COMPREHENSION DEMO ==========")
+
